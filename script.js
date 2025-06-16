@@ -40,19 +40,18 @@ const saeData = {
         ]
     },
     sae104: {
-        title: "SAÉ 1.04 - Création d'une base de données",
-        context: "Conception et implémentation d'une base de données relationnelle pour un système d'information réseau, de la modélisation conceptuelle à la réalisation technique.",
-        work: "Analyse des besoins pour une base de données de gestion d'équipements réseau, création du MCD/MLD, implémentation en SQL (MySQL), développement d'interfaces de consultation et de mise à jour des données.",
-        probleme:"",
-        reflection: "Découverte de la modélisation de données et du SQL. J'ai apprécié la logique de construction d'une base de données, même si la syntaxe SQL demandait de la pratique.",
+        title: "SAÉ 1.04 - Se présenter sur Internet",
+        context: "Dans le cadre de la SAÉ 1.04, l'objectif était de réaliser un site web multipages en HTML/CSS sur un thème libre. J'ai choisi de mettre en avant la cuisine saoudienne, un sujet qui me tient à cœur.",
+        work: "J'ai conçu un site web composé de plusieurs pages : 1. Page d'accueil : Présentation visuelle et accrocheuse introduisant le thème du site. 2. Page dédiée : Contenu détaillé sur les plats traditionnels saoudiens, illustré avec des images pour mettre en valeur leur diversité. 3. Page 'À propos' : Présentation de moi-même, expliquant ma passion pour la cuisine saoudienne et les raisons de mon choix de sujet. J'ai veillé à respecter une charte graphique cohérente, à utiliser Flexbox et CSS Grid pour la mise en page, et à rendre le site entièrement responsive, afin qu'il soit accessible sur ordinateur, tablette et mobile. J'ai également intégré des animations CSS pour rendre la navigation plus dynamique. Le code source a été déposé sur GitHub, avec des commits explicites et un README.md détaillé.",
+        probleme:"Au cours du projet, j’ai été confronté à quelques difficultés pour assurer une adaptabilité parfaite du site sur tous les supports. L’intégration d’animations CSS a également demandé des recherches pour trouver le bon compromis entre esthétique et performance. Enfin, garantir le respect strict des standards W3C et de l’accessibilité WCAG 2.0 AA a nécessité de nombreux tests et ajustements.",
+        reflection: "Ce projet a été une occasion de consolider mes compétences en développement web, surtout en adaptabilité et en animation CSS. Choisir un sujet personnel a rendu le travail particulièrement motivant. J’ai aussi compris l'importance de bien documenter mon projet et de gérer mon code avec GitHub, ce qui m’a permis de mieux structurer mon travail et de préparer un rendu professionnel.",
         competences: ["UE3"],
         downloads: [
-            { name: "Modèle de données", link: "#", newTab: true },
-            { name: "Scripts SQL", link: "#", newTab: true }
+            { name: "Redirection vers le site", link: "https://blvcki.github.io/Hittin-v2", newTab: true }
         ]
     },
     sae105: {
-        title: "SAÉ 1.05 - Traiter des données",
+        title: "SAÉ 1.05 - Traitement des données",
         context: "La SAE 1.05 avait pour objectif de nous initier à la gestion et au traitement de données en Python à travers un projet utilisant l’API Pokémon RESTful. L’idée était de réaliser, en binôme, deux outils : l’un pour générer des fiches descriptives individuelles de Pokémon (au format Markdown et HTML), l’autre pour générer des statistiques sur des ensembles de Pokémon. Cette SAE combinait développement Python, collecte d’informations via API, traitement des données et présentation soignée des résultats.",
         work: "Avec mon binôme, nous avons commencé par nous familiariser avec l’API et les formats Markdown/HTML. Nous avons développé une fonction de conversion Markdown vers HTML réutilisable. Ensuite, nous avons créé un script Python utilisant différentes fonctions : récupération de données sur les Pokémon, traduction automatique en français lorsqu’elle était disponible, génération de fiches individuelles (texte et image), puis calcul de statistiques globales (taille, poids, points de vie, etc.). Enfin, l’ergonomie et la présentation des résultats ont été soignées pour rendre les fiches conviviales. Une documentation des fonctions, particulièrement celle dédiée aux statistiques, a été fournie comme demandé.",
         probleme:"L’un des obstacles principaux a été la gestion des appels à l’API, notamment pour adapter le code à l’affichage en français et optimiser les requêtes afin d’éviter les lenteurs (surtout lors du traitement de plusieurs Pokémon). Nous avons également eu des difficultés à bien structurer le code pour qu’il soit réutilisable et facilement paramétrable. Enfin, le format du rendu (Markdown/HTML) a demandé un certain investissement pour obtenir un résultat à la fois lisible et esthétique.",
@@ -99,15 +98,17 @@ const saeData = {
         ]
     },
     sae204: {
-        title: "SAÉ 2.04 - Créer des outils et applications",
+        title: "SAÉ 2.04 - Projet Intégratif de S2",
         context: "Projet de fin d’année qui combine les mathématiques, réseaux, systèmes et télécommunications pour mettre en pratique l’ensemble des compétences acquises.",
-        work: "J’ai participé à un projet complet réunissant plusieurs matières : 1.Mathématiques : Étude de polynômes pour localiser, compter et approximer les racines réelles, en appliquant des techniques comme la dérivation, la division euclidienne ou l’analyse de suites. 2.Réseaux/Systèmes : Réalisation en équipe d’une maquette réseau et virtuelle, configuration de serveurs sous Proxmox, organisation et suivi du projet via un chef d’équipe, et documentation de l’avancement sur la plateforme dédiée. 3.Télécommunications : Mesures radiofréquences avec Matlab et ADALM-PLUTO, identification et caractérisation d’un signal perturbateur sur la bande ISM, et recherches sur la législation applicable. 4.Anglais : Évaluation individuelle sur la grammaire, le vocabulaire spécifique et leurs définitions, afin de consolider les bases linguistiques nécessaires dans le domaine des réseaux et télécoms.",
+        work: "J’ai participé à un projet complet réunissant plusieurs matières : 1. Mathématiques : Étude de polynômes pour localiser, compter et approximer les racines réelles, en appliquant des techniques comme la dérivation, la division euclidienne ou l’analyse de suites. 2. Réseaux/Systèmes : Réalisation en équipe d’une maquette réseau et virtuelle, configuration de serveurs sous Proxmox, organisation et suivi du projet via un chef d’équipe, et documentation de l’avancement sur la plateforme dédiée. 3. Télécommunications : Mesures radiofréquences avec Matlab et ADALM-PLUTO, identification et caractérisation d’un signal perturbateur sur la bande ISM, et recherches sur la législation applicable. 4. Anglais : Évaluation individuelle sur la grammaire, le vocabulaire spécifique et leurs définitions, afin de consolider les bases linguistiques nécessaires dans le domaine des réseaux et télécoms.",
         probleme:"Le caractère transversal de la SAE a nécessité une coordination continue entre des matières aux méthodes très différentes. La gestion du temps, la communication au sein du groupe et l’équilibre des tâches se sont révélés essentiels, surtout face à des délais serrés et à quelques soucis matériels (retards sur la disponibilité des serveurs ou l’accès aux salles spécialisées). La diversité des épreuves, incluant par exemple l’évaluation d’anglais très axée sur le vocabulaire technique, a également demandé une certaine capacité d’adaptation et de priorisation.",
         reflection: "Cette SAE a été particulièrement formatrice, car elle m’a mis dans des conditions proches des projets réels : il a fallu s’appuyer sur des compétences très variées, passer d’une logique mathématique à de la pratique réseau ou à l’analyse grammaticale, et apprendre à organiser le travail collectif. J’ai compris que la technique ne va jamais sans organisation ni communication, et que ma capacité à évoluer sur plusieurs terrains à la fois sera un vrai atout professionnel. Les évaluations en anglais m’ont aussi fait prendre conscience de l’importance d’être à l’aise dans une langue couramment utilisée dans notre secteur. Enfin, la satisfaction d’aboutir à une solution concrète en équipe, en mobilisant tout ce qui a été appris depuis le début de l’année, m’a beaucoup motivé et rendu fier du travail accompli.",
         competences: ["UE1", "UE2", "UE3"],
         downloads: [
-            { name: "Code source application", link: "#", newTab: true },
-            { name: "Documentation technique", link: "#", newTab: true }
+            { name: "Réseau - Gantt", link: "Docs/SAE24_Gantt.pdf", newTab: true },
+            { name: "Réseau - Schéma logique", link: "Docs/SAE24_Schema_logique.pdf", newTab: true },
+            { name: "Réseau - Schéma physique", link: "Docs/SAE24_Schema_physique.pdf", newTab: true },
+            { name: "Réseau - Tableau Kanban", link: "Docs/SAE24_Tableau_Kanban.pdf", newTab: true }
         ]
     }
 };
